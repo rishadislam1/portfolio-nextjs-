@@ -4,7 +4,9 @@
 h1{
     font-family: 'Kalnia', serif;
 }
-p{
+ul,p{
     font-family: 'Roboto Slab', serif;
 }
-
+button{
+        font-family: 'Roboto Slab', serif;
+}

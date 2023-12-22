@@ -1,7 +1,12 @@
+import HomeHeader from "./Components/Home/HomeHeader";
+import HomeMiddle from "./Components/Home/HomeMiddle/HomeMiddle";
 
 
 export default function Home() {
   return (
-    <h1>This is home</h1>
+  <div>
+      <HomeHeader></HomeHeader>
+    <HomeMiddle></HomeMiddle>
+  </div>
   )
 }
