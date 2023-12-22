@@ -4,6 +4,7 @@ const AboutPage = () => {
     return (
         <div>
             this is about
+            
         </div>
     );
 };

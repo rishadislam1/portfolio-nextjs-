@@ -1,6 +1,8 @@
+"use client"
 import Link from "next/link";
 import React from "react";
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
+
 
 const HeaderMainFooter = ({ name, header, link }) => {
   return (
@@ -16,8 +18,13 @@ const HeaderMainFooter = ({ name, header, link }) => {
             className="text-5xl hover:text-gray-500 transition-all duration-500"
           >
             {" "}
-            <MdOutlineKeyboardDoubleArrowRight />
+           
+ 
+   <MdOutlineKeyboardDoubleArrowRight />
+
+
           </Link>
+          
         </div>
       </div>
     </div>

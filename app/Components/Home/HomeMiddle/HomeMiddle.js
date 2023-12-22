@@ -5,7 +5,7 @@ import Image from "next/image";
 import HeaderMainFooter from "../../HeaderMainFooter";
 import { FaCode, FaCss3, FaFacebook, FaGithub, FaHtml5, FaJava, FaLaravel, FaLinkedin, FaReact } from "react-icons/fa";
 import Link from "next/link";
-import { SiLeetcode, SiMysql } from "react-icons/si";
+import { SiFiverr, SiLeetcode, SiMysql } from "react-icons/si";
 import React, { useEffect, useRef, useState } from "react";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
@@ -15,6 +15,7 @@ import { IoLogoJavascript } from "react-icons/io5";
 const HomeMiddle = () => {
   return (
     <div className="mt-10 lg:mx-44 md:mx-10">
+      
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
         {/* mycv */}
         <div className="bg-gradient-to-r from-[#1f1f1f] border border-gray-900 hover:shadow-lg hover:shadow-gray-900  rounded-xl p-10 transition-all duration-500">
@@ -114,30 +115,37 @@ const HomeMiddle = () => {
         {/* profiles */}
         <div className="bg-gradient-to-r from-[#1f1f1f] border border-gray-900 hover:shadow-lg hover:shadow-gray-900  rounded-xl p-10 transition-all duration-500">
           <div className="flex justify-center items-center mb-20 mt-14 gap-5">
+          <Link
+              href="https://www.fiverr.com/freelancerrisha"
+              className="text-3xl text-white hover:text-white hover:bg-green-700 transition-all duration-300 border p-2 rounded-full"
+              target="_blank"
+            >
+              <SiFiverr />
+            </Link>
             <Link
               href="https://www.facebook.com/rishadislam01/"
-              className="text-3xl text-white hover:text-blue-500 transition-all duration-300"
+              className="text-3xl text-white hover:text-white hover:bg-blue-400 border rounded-full p-2 transition-all duration-300"
               target="_blank"
             >
               <FaFacebook />
             </Link>
             <Link
               href="https://www.linkedin.com/in/rishad-islam/"
-              className="text-3xl text-white hover:text-blue-500 transition-all duration-300"
+              className="text-3xl text-white hover:text-white hover:bg-blue-700 border rounded-full p-2 transition-all duration-300"
               target="_blank"
             >
               <FaLinkedin />
             </Link>
             <Link
               href="https://github.com/rishadislam1"
-              className="text-3xl text-white hover:text-gray-500 transition-all duration-300"
+              className="text-3xl text-white hover:text-black hover:bg-white border rounded-full p-2 transition-all duration-300"
               target="_blank"
             >
               <FaGithub />
             </Link>
             <Link
               href="https://leetcode.com/rishadislam6790/"
-              className="text-3xl text-white hover:text-blue-500 transition-all duration-300"
+              className="text-3xl text-white hover:text-yellow-600 hover:bg-white border rounded-full p-2 transition-all duration-300"
               target="_blank"
             >
               <SiLeetcode />
