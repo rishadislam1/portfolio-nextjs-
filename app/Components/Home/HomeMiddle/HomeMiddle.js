@@ -19,7 +19,7 @@ const HomeMiddle = () => {
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
         {/* mycv */}
         <div className="bg-gradient-to-r from-[#1f1f1f] border border-gray-900 hover:shadow-lg hover:shadow-gray-900  rounded-xl p-10 transition-all duration-500">
-          <div className="flex justify-center items-center mb-5">
+          <div className="flex flex-wrap justify-center items-center mb-5">
             <Image src={cvIcon} width={150} height={500} alt="rishadislam" />
           </div>
 
@@ -36,7 +36,8 @@ const HomeMiddle = () => {
                 maxValue={100}
                 text={`90%`}
                 width="1px"
-                className="w-5"
+                className="w-5 "
+              
               />
               <FaHtml5 />
             </div>

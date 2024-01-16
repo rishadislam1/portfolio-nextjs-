@@ -41,7 +41,7 @@ const Navbar = () => {
                 {" "}
                 <li
                   className={`cursor-pointer hover:text-red-500 transition-all duration-500 ${
-                    pathname === "/" ? "text-[#FF3333]" : "text-black"
+                    pathname === "/" ? "text-[##f8037c]" : "text-black"
                   }`}
                 >
                   Home
@@ -50,7 +50,7 @@ const Navbar = () => {
               <Link href={"/about"}>
                 <li
                   className={`cursor-pointer hover:text-red-500 transition-all duration-500 ${
-                    pathname === "/about" ? "text-[#FF3333]" : "text-black"
+                    pathname === "/about" ? "text-[##f8037c]" : "text-black"
                   }`}
                 >
                   About
@@ -60,7 +60,7 @@ const Navbar = () => {
                 {" "}
                 <li
                   className={`cursor-pointer hover:text-red-500 transition-all duration-500 ${
-                    pathname === "/projects" ? "text-[#FF3333]" : "text-black"
+                    pathname === "/projects" ? "text-[##f8037c]" : "text-black"
                   }`}
                 >
                   Projects
@@ -69,7 +69,7 @@ const Navbar = () => {
               <Link href={"/contact"}>
                 <li
                   className={`cursor-pointer hover:text-red-500 transition-all duration-500 ${
-                    pathname === "/contact" ? "text-[#FF3333]" : "text-black"
+                    pathname === "/contact" ? "text-[##f8037c]" : "text-black"
                   }`}
                 >
                   Contact
@@ -92,7 +92,7 @@ const Navbar = () => {
               {" "}
               <li
                 className={`cursor-pointer hover:text-red-500 transition-all duration-500 ${
-                  pathname === "/" ? "text-[#FF3333]" : "text-white"
+                  pathname === "/" ? "text-[#f8037c]" : "text-white"
                 }`}
               >
                 Home
@@ -101,7 +101,7 @@ const Navbar = () => {
             <Link href={"/about"}>
               <li
                 className={`cursor-pointer hover:text-red-500 transition-all duration-500 ${
-                  pathname === "/about" ? "text-[#FF3333]" : "text-white"
+                  pathname === "/about" ? "text-[#f8037c]" : "text-white"
                 }`}
               >
                 About
@@ -111,7 +111,7 @@ const Navbar = () => {
               {" "}
               <li
                 className={`cursor-pointer hover:text-red-500 transition-all duration-500 ${
-                  pathname === "/projects" ? "text-[#FF3333]" : "text-white"
+                  pathname === "/projects" ? "text-[#f8037c]" : "text-white"
                 }`}
               >
                 Projects
@@ -120,7 +120,7 @@ const Navbar = () => {
             <Link href={"/contact"}>
               <li
                 className={`cursor-pointer hover:text-red-500 transition-all duration-500 ${
-                  pathname === "/contact" ? "text-[#FF3333]" : "text-white"
+                  pathname === "/contact" ? "text-[#f8037c]" : "text-white"
                 }`}
               >
                 Contact
