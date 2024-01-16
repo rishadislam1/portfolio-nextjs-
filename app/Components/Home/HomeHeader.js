@@ -9,7 +9,7 @@ import Link from "next/link";
 import HeaderMainFooter from '../HeaderMainFooter';
 const HomeHeader = () => {
   return (
-    <div className="mt-14 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:mx-44 md:mx-10 text-white">
+    <div className="mt-14 grid grid-cols-1 lg:grid-cols-2 gap-10 xl:mx-44 md:mx-10 text-white">
       <Link href="/about">
         <div className="bg-gradient-to-r from-[#1f1f1f] border border-gray-900 hover:shadow-lg hover:shadow-gray-900  rounded-xl transition-all duration-500">
           <div className=" flex flex-col md:flex-row justify-around py-10 px-10 gap-10">

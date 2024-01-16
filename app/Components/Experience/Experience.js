@@ -4,7 +4,7 @@ import CountUp from "react-countup";
 
 const Experience = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 mt-10 lg:mx-44 gap-10">
+    <div className="grid grid-cols-1 lg:grid-cols-2 mt-10 xl:mx-44 gap-10">
       {/* Project experience */}
    <div className="bg-gradient-to-r from-[#1f1f1f] border border-gray-900 hover:shadow-lg hover:shadow-gray-900  rounded-xl p-10 transition-all duration-500 ">
    <h1 className="text-center my-5 text-white text-3xl font-bold">MY PROJECT EXPERIENCE</h1>

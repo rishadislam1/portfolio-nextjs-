@@ -11,7 +11,7 @@ const Footer = () => {
     <div>
     <div className="my-48 flex flex-col justify-center items-center">
       <Planet
-        // mass={4}
+        mass={4}
         tension={500}
         friction={19}
         orbitRadius={150}
@@ -95,9 +95,9 @@ const Footer = () => {
             text: "white",
           }}
         >
-          {/* <Link href="/skills" className="text-white">
+          <Link href="/skills" className="text-white">
             Skills
-          </Link> */}
+          </Link>
         </div>
       </Planet>
 

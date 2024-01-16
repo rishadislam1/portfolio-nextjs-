@@ -14,7 +14,7 @@ import { IoLogoJavascript } from "react-icons/io5";
 
 const HomeMiddle = () => {
   return (
-    <div className="mt-10 lg:mx-44 md:mx-10">
+    <div className="mt-10 xl:mx-44 md:mx-10">
       
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
         {/* mycv */}
@@ -115,7 +115,7 @@ const HomeMiddle = () => {
 
         {/* profiles */}
         <div className="bg-gradient-to-r from-[#1f1f1f] border border-gray-900 hover:shadow-lg hover:shadow-gray-900  rounded-xl p-10 transition-all duration-500">
-          <div className="flex justify-center items-center mb-20 mt-14 gap-5">
+          <div className="flex flex-wrap justify-center items-center mb-20 mt-14 gap-5">
           <Link
               href="https://www.fiverr.com/freelancerrisha"
               className="text-3xl text-white hover:text-white hover:bg-green-700 transition-all duration-300 border p-2 rounded-full"

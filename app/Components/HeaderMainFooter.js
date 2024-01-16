@@ -10,7 +10,7 @@ const HeaderMainFooter = ({ name, header, link }) => {
       <div className="flex justify-between items-center text-white">
         <div>
           <p className="text-gray-400">{name}</p>
-          <h1 className="text-3xl mt-3">{header}</h1>
+          <h1 className="text-3xl lg:text-xl xxl:text-3xl mt-3">{header}</h1>
         </div>
         <div>
           <Link
